@@ -28,6 +28,8 @@ def swapKeys():
     keyboard.remap_key('l', 'right')
     keyboard.remap_key('i', 'up')
     keyboard.remap_key('k', 'down')
+    keyboard.remap_key('u', 'pageup')
+    keyboard.remap_key('o', 'pagedown')
 
 def unswap():
     keyboard.unhook_all()
